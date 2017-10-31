@@ -23,5 +23,5 @@ app.use(session({
 app.use(logger('dev'));
 
 app.get('/', function(req, res, next) {
-  res.render('app', { done: true })
+  res.render('index', { done: true })
 })
